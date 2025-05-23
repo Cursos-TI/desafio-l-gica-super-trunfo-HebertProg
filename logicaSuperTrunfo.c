@@ -71,7 +71,7 @@ int main(){
 
     pib_Perca1 = (float)pib1/populacao1;// Divisão da renda per capita 
     
-    densi_popula1 = ((float)populacao1/km_cidade1);//divisão da densidade populacional
+    densi_popula1 =(float)populacao1/km_cidade1;//divisão da densidade populacional
 
     Super_poder1 = (float) populacao1+km_cidade1+pib1+pontos_turisticos1+pib_Perca1+1/densi_popula1;//super poder é a soma de todas as atribuições. 
 
@@ -107,7 +107,7 @@ int main(){
 
     pib_Perca2 = (float)pib2/populacao2;// Divisão da renda per capita 
     
-    densi_popula2 = ((float)populacao2/km_cidade2);//divisão da densidade populacional
+    densi_popula2 = (float)populacao2/km_cidade2;//divisão da densidade populacional
 
     Super_poder2 = (float) populacao2+km_cidade2+pib2+pontos_turisticos2+pib_Perca2+1/densi_popula2;//super poder é a soma de todas as atribuições. 
     /*compração das cartas são essas linhas de códigos abaixo , o atributo escolhido é a População,
